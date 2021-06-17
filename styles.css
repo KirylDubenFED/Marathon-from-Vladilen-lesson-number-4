@@ -7,6 +7,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   height: 100vh;
   overflow: hidden;
   margin: 0;
@@ -31,4 +32,11 @@ body {
 
 .square:hover {
   transition-duration: 0s;
+}
+
+.title {
+  color: rgb(90, 64, 241);
+  font-family: 'Pacifico', cursive;
+  text-shadow: 0 0 2px rgb(0, 26, 255), 0 0 10px #ee14ca;
+  font-size: 3em;
 }
